@@ -12,3 +12,4 @@
 ## 초기 Dependencies
 - Spring Web
 - Thymeleaf
+- spring-boot-devtools: 브라우저로 전송되는 내용들에 대한 코드가 변경되면, 자동으로 어플리케이션을 재시작하여 브라우저에도 업데이트
