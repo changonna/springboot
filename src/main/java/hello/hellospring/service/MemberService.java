@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class MemberService {
+    // 회원 서비스가 메모리 회원 리포지토리를 직접 생성
     private final MemberRepository memberRepository = new MemoryMemberRepository();
 
     /**
