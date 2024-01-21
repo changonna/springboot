@@ -5,10 +5,12 @@ import hello.hellospring.repository.MemoryMemberRepository;
 import hello.hellospring.vo.Member;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
     // 회원 서비스 코드를 DI 가능하게 변경
     private final MemberRepository memberRepository;
